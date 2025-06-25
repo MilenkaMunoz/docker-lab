@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  senati-microservicio:
+    image: milenka78/senati-microservicio:3.0
+    container_name: senati-microservicio
+    ports:
+      - "8085:8085"
+    environment:
+      - PORT=8085
